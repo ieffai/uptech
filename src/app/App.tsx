@@ -8,6 +8,7 @@ import { ReactElement, Suspense } from 'react'
 
 const App = (): ReactElement => {
     const { theme } = useTheme()
+
     return (
         <div className={classNames('app', {}, [theme])}>
             <Suspense fallback="Loading">
