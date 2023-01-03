@@ -16,6 +16,7 @@ export const Sidebar = ({ className }: SidebarProps): ReactElement => {
     }
     return (
         <div
+            data-testid='sidebar'
             className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
                 className
             ])}
@@ -27,7 +28,9 @@ export const Sidebar = ({ className }: SidebarProps): ReactElement => {
                 <LangSwitcher className={cls.lang} />
             </div>
 
-            <button onClick={onToggle}>SIDEBAR</button>
+            <button
+                data-testid='sidebar-toggle'
+                onClick={onToggle}>SIDEBAR</button>
 
         </div>
     )

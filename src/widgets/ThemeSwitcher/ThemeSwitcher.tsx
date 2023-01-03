@@ -1,7 +1,6 @@
 import { Theme, useTheme } from 'app'
 import { ReactElement } from 'react'
-import { classNames, ICON_THEME_DARK, ICON_THEME_LIGHT } from 'shared'
-import { Button, ThemeButton } from '../../shared/ui/Button'
+import { Button, classNames, ICON_THEME_DARK, ICON_THEME_LIGHT, ThemeButton } from 'shared'
 
 interface ThemeSwitcherProps {
     className?: string
