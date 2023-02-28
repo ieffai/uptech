@@ -1,9 +1,15 @@
 {
   "language": "Русский",
-  "Page not found": "Страница не найдена",
-  "Main page": "Главная страница",
-  "About page": "О сайте",
   "An unexpected error happened": "Произошла непредвиденная ошибка",
   "refresh page": "Обновить страницу",
-  "Set Error": "Вызвать ошибку"
+  "Set Error": "Вызвать ошибку",
+  "aboutPage": {
+    "title": "О сайте"
+  },
+  "mainPage": {
+    "title": "Главная страница"
+  },
+  "notFoundPage": {
+    "title": "Ресурс не найден"
+  }
 }

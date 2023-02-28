@@ -8,10 +8,10 @@ interface NotFoundPageProps {
 }
 
 export const NotFoundPage = ({ className }: NotFoundPageProps): ReactElement => {
-    const { t } = useTranslation()
+    const { t } = useTranslation('translation', { keyPrefix: 'notFoundPage' })
     return (
         <div className={classNames(cls.NotFoundPage, {}, [className])}>
-            <div>{t('Page not found')}</div>
+            <div>{t('title')}</div>
         </div>
     )
 }

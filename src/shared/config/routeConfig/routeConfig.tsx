@@ -1,6 +1,4 @@
-import { AboutPageAsync } from 'pages/AboutPage'
-import { MainPageAsync } from 'pages/MainPage'
-import { NotFoundPage } from 'pages/NotFoundPage'
+import { AboutPageAsync, MainPageAsync, NotFoundPage } from 'pages'
 import { RouteProps } from 'react-router-dom'
 
 export enum AppRoutes {

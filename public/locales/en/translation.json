@@ -1,9 +1,16 @@
 {
   "language": "English",
-  "Page not found": "Page not found",
-  "Main page": "Main page",
-  "About page": "About page",
   "An unexpected error happened": "An unexpected error happened",
   "refresh page": "Refresh page",
-  "Set Error": "Throw error"
+  "Set Error": "Throw error",
+  "aboutPage": {
+    "title": "About page"
+  },
+  "mainPage": {
+    "title": "Main page"
+  },
+  "notFoundPage": {
+    "title": "Resource not found"
+  }
+
 }
