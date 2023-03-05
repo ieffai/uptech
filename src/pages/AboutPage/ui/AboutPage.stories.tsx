@@ -13,7 +13,7 @@ const meta: ComponentMeta<typeof AboutPage> = {
     }
 }
 export default meta
-const Template: ComponentStory<typeof AboutPage> = (args) => <AboutPage {...args} />
+const Template: ComponentStory<typeof AboutPage> = () => <AboutPage />
 
 export const Normal = Template.bind({})
 Normal.args = {}

@@ -5,12 +5,7 @@ import { NotFoundPage } from './NotFoundPage'
 
 const meta: ComponentMeta<typeof NotFoundPage> = {
     title: 'pages/NotFoundPage',
-    component: NotFoundPage,
-    argTypes: {
-        backgroundColor: {
-            control: 'color'
-        }
-    }
+    component: NotFoundPage
 }
 export default meta
 const Template: ComponentStory<typeof NotFoundPage> = (args) => <NotFoundPage {...args} />
